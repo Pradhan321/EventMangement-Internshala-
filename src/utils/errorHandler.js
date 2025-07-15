@@ -7,4 +7,4 @@ const handleError = (res, error) => {
   res.status(status).json({ error: error.message });
 };
 
-export default { handleError };
+export default handleError;
