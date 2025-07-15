@@ -1,5 +1,5 @@
 import express, { json } from 'express';
-import eventRoutes from './routes/events';
+import eventRoutes from './routes/events.js';
 
 const app = express();
 
